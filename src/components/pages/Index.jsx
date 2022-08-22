@@ -32,7 +32,7 @@ const Index = () => {
               Desenvolvedor Frontend
             </AnimatedText>
           </h1>
-          <h1 className="text-white mb-14 font-mono mt-12  hover:text-green-500 hover:ease-in duration-300">
+          <h1 className="text-white mb-24 font-mono mt-12  hover:text-green-500 hover:ease-in duration-300">
             <AnimatedText
               type="wave" // animate words or chars
               animation={{
