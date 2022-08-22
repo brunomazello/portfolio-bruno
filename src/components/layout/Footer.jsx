@@ -15,7 +15,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener"
         >
-          <BsGithub className="text-5xl text-white hover:text-white duration-500 hover:cursor-pointer hover:text-7xl mr-10" />
+          <BsGithub className="text-5xl text-white hover:text-black duration-500 hover:cursor-pointer hover:text-7xl mr-10" />
         </a>
         <a
           href="https://www.behance.net/brunormazello"
