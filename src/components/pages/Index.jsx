@@ -12,7 +12,7 @@ const Index = () => {
           className="mb-12 2xl:mb-96 ml-14 mt-12 2xl:mt-24 w-80 sm:w-auto mr-12 hover:ease-in duration-300 grayscale hover:grayscale-0"
         />
         <div>
-          <h1 className="text-white ml-4 font-mono text-3xl sm:text-7xl hover:text-green-500 hover:ease-in duration-300">
+          <h1 className="text-white ml-4 font-mono text-3xl sm:text-7xl hover:text-pink-600 hover:ease-in duration-300">
             <AnimatedText
               type="words" // animate words or chars
               animation={{
@@ -54,7 +54,16 @@ const Index = () => {
               React / ReactJS / HTML5 / CSS3 / JavaScript / Git
             </AnimatedText>
             <div className="flex justify-center mt-10">
-              <img src={qrcode} alt="" className="w-32 rounded" />
+              <a
+                href="https://drive.google.com/file/d/14zlKNufMAt56-C9mSr8yl3LDkCTMNorV/view?usp=sharing"
+                target="_blank"
+              >
+                <img
+                  src={qrcode}
+                  alt=""
+                  className="w-32 rounded hover:w-40 duration-500"
+                />
+              </a>
             </div>
           </h1>
         </div>

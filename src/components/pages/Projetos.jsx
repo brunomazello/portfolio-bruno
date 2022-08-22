@@ -8,7 +8,7 @@ const Projetos = () => {
         <div className="bg-black p-5">
           <h1
             id="Projetos"
-            className="text-white font-mono text-2xl sm:text-7xl hover:text-green-500 duration-300"
+            className="text-white font-mono text-2xl sm:text-7xl hover:text-pink-600 duration-300"
           >
             Lista de Projetos
           </h1>

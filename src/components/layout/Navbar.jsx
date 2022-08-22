@@ -4,7 +4,7 @@ const Navbar = () => {
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between mt-3">
         <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
           <a
-            class="text-sm font-bold text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white hover:text-green-500 hover:cursor-pointer hover:ease-in duration-300"
+            class="text-sm font-bold text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white hover:text-pink-600 hover:cursor-pointer hover:ease-in duration-300"
             href="#"
           >
             Bruno Mazello
