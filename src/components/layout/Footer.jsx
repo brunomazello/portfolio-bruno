@@ -2,7 +2,7 @@ import { BsLinkedin, BsGithub, BsBehance } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="flex justify-center">
-      <footer className="p-10 flex item-center justify-around">
+      <footer className="p-10 flex item-center justify-around" name="contato">
         <a
           href="https://www.linkedin.com/in/brunomazello/"
           target="_blank"

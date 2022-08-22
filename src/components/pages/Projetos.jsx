@@ -7,7 +7,7 @@ const Projetos = () => {
       <AnimationOnScroll animateIn="animate__bounceIn">
         <div className="bg-black p-5">
           <h1
-            id="Projetos"
+            name="projetos"
             className="text-white font-mono text-2xl sm:text-7xl hover:text-pink-600 duration-300"
           >
             Lista de Projetos
