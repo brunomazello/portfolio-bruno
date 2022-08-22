@@ -2,7 +2,7 @@ import Index from "../pages/Index.jsx";
 
 const Home = () => {
   return (
-    <div className="bg-zinc-900">
+    <div className="m-auto">
       <Index />
     </div>
   );
