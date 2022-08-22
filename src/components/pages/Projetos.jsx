@@ -3,12 +3,12 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Projetos = () => {
   return (
-    <div className="flex items-center justify-center sm:bg-black">
+    <div className="flex justify-center">
       <AnimationOnScroll animateIn="animate__bounceIn">
-        <div className="bg-black w-full h-full">
+        <div className="bg-black p-5">
           <h1
             id="Projetos"
-            className="text-white font-mono text-2xl sm:text-7xl hover:text-green-500 duration-300 mt-10"
+            className="text-white font-mono text-2xl sm:text-7xl hover:text-green-500 duration-300"
           >
             Lista de Projetos
           </h1>
