@@ -1,5 +1,6 @@
 import imgbruno from "../../img/img_bruno.png";
 import AnimatedText from "react-animated-text-content";
+import qrcode from "../../img/qr-curriculo.jpg";
 
 const Index = () => {
   return (
@@ -52,6 +53,9 @@ const Index = () => {
             >
               React / ReactJS / HTML5 / CSS3 / JavaScript / Git
             </AnimatedText>
+            <div className="flex justify-center mt-10">
+              <img src={qrcode} alt="" className="w-32 rounded" />
+            </div>
           </h1>
         </div>
       </div>
