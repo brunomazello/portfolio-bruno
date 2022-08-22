@@ -2,7 +2,7 @@ import projeto01 from "../../img/projeto_github.png";
 
 const NewProjects = () => {
   return (
-    <div className="flex flex-wrap justify-items-center items-center mb-10 bg-black ml-14">
+    <div className="flex flex-wrap justify-items-center items-center mb-10 bg-black ml-10 mr-10">
       <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 hover:cursor-pointer sm:mr-14">
         <img
           src={projeto01}

@@ -8,7 +8,7 @@ const Projetos = () => {
         <div>
           <h1
             id="Projetos"
-            className="text-white font-mono text-4xl sm:text-7xl hover:text-green-500 duration-300 mt-10"
+            className="text-white font-mono text-2xl sm:text-7xl hover:text-green-500 duration-300 mt-10"
           >
             Lista de Projetos
           </h1>
