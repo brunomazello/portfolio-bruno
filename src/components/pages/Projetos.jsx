@@ -3,7 +3,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Projetos = () => {
   return (
-    <div className="flex items-center justify-center bg-black">
+    <div className="flex items-center justify-center">
       <AnimationOnScroll animateIn="animate__bounceIn">
         <div className="bg-black w-full h-full">
           <h1
