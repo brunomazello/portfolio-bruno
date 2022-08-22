@@ -2,21 +2,51 @@ import projeto01 from "../../img/projeto_github.png";
 
 const NewProjects = () => {
   return (
-    <div className="container flex">
-      <div className="border p-3 mt-10 mr-10 hover:cursor-pointer">
-        <h1 className="text-white">Projeto 1</h1>
-        <p className="text-white">Blablabla</p>
-        <img src={projeto01} alt="" className="w-80" />
+    <div className="container flex flex-wrap justify-items-center items-center mb-10 ml-16">
+      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-10 hover:cursor-pointer">
+        <img
+          src={projeto01}
+          alt=""
+          className="w-80 grayscale hover:grayscale-0 duration-300 rounded"
+        />
+        <div className="w-56 mt-5 flex items-center flex-wrap justify-center ml-12 mb-5">
+          <h1 className="text-white font-bold hover:text-green-500">
+            Consulta Github
+          </h1>
+          <p className="text-white font-mono">
+            Consulta repositórios no Github pelo nome de usuário
+          </p>
+        </div>
       </div>
-      <div className="border p-3 mt-10 mr-10 hover:cursor-pointer">
-        <h1 className="text-white">Projeto 1</h1>
-        <p className="text-white">Blablabla</p>
-        <img src={projeto01} alt="" className="w-80" />
+      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-10 hover:cursor-pointer">
+        <img
+          src={projeto01}
+          alt=""
+          className="w-80 grayscale hover:grayscale-0 duration-300 rounded"
+        />
+        <div className="w-56 mt-5 flex items-center flex-wrap justify-center ml-12 mb-5">
+          <h1 className="text-white font-bold hover:text-green-500">
+            Consulta Github
+          </h1>
+          <p className="text-white font-mono">
+            Consulta repositórios no Github pelo nome de usuário
+          </p>
+        </div>
       </div>
-      <div className="border p-3 mt-10 mr-10 hover:cursor-pointer">
-        <h1 className="text-white">Projeto 1</h1>
-        <p className="text-white">Blablabla</p>
-        <img src={projeto01} alt="" className="w-80" />
+      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-10 hover:cursor-pointer">
+        <img
+          src={projeto01}
+          alt=""
+          className="w-80 grayscale hover:grayscale-0 duration-300 rounded"
+        />
+        <div className="w-56 mt-5 flex items-center flex-wrap justify-center ml-12 mb-5">
+          <h1 className="text-white font-bold hover:text-green-500">
+            Consulta Github
+          </h1>
+          <p className="text-white font-mono">
+            Consulta repositórios no Github pelo nome de usuário
+          </p>
+        </div>
       </div>
     </div>
   );
