@@ -3,7 +3,7 @@ import projeto01 from "../../img/projeto_github.png";
 const NewProjects = () => {
   return (
     <div className="flex flex-wrap justify-items-center items-center mb-10 ml-16 bg-black">
-      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-10 hover:cursor-pointer">
+      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-14 hover:cursor-pointer">
         <img
           src={projeto01}
           alt=""
@@ -18,7 +18,7 @@ const NewProjects = () => {
           </p>
         </div>
       </div>
-      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-10 hover:cursor-pointer">
+      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-14 hover:cursor-pointer">
         <img
           src={projeto01}
           alt=""
@@ -33,7 +33,7 @@ const NewProjects = () => {
           </p>
         </div>
       </div>
-      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-10 hover:cursor-pointer">
+      <div className="border rounded hover:border-green-500 duration-300 p-3 mt-10 mr-14 hover:cursor-pointer">
         <img
           src={projeto01}
           alt=""
