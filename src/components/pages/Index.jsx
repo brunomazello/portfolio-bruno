@@ -8,7 +8,7 @@ const Index = () => {
         <img
           src={imgbruno}
           alt=""
-          className="mb-14 ml-14 mt-12 w-80 sm:w-auto mr-12 hover:ease-in duration-300 grayscale hover:grayscale-0"
+          className="mb-12 2xl:mb-96 ml-14 mt-12 2xl:mt-24 w-80 sm:w-auto mr-12 hover:ease-in duration-300 grayscale hover:grayscale-0"
         />
         <div>
           <h1 className="text-white ml-4 font-mono text-3xl sm:text-7xl hover:text-green-500 hover:ease-in duration-300">

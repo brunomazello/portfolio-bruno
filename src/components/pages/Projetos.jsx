@@ -6,7 +6,10 @@ const Projetos = () => {
     <div className="flex items-center justify-center bg-black">
       <AnimationOnScroll animateIn="animate__bounceIn">
         <div>
-          <h1 className="text-white font-mono text-4xl sm:text-7xl hover:text-green-500 duration-300 mt-10">
+          <h1
+            id="Projetos"
+            className="text-white font-mono text-4xl sm:text-7xl hover:text-green-500 duration-300 mt-10"
+          >
             Lista de Projetos
           </h1>
 
