@@ -22,7 +22,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener"
         >
-          <BsBehance className="text-5xl text-white duration-500 hover:cursor-pointer hover:text-7xl" />
+          <BsBehance className="text-5xl text-white duration-500 hover:text-pink-600 hover:cursor-pointer hover:text-7xl" />
         </a>
       </footer>
     </div>
