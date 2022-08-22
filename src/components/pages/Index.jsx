@@ -8,10 +8,10 @@ const Index = () => {
         <img
           src={imgbruno}
           alt=""
-          className="opacity-100 hover:opacity-50 mb-12 mt-12 w-100 sd:w-60 mr-12 hover:ease-in duration-300"
+          className="mb-14 mt-12 w-100 sd:w-60 mr-12 hover:ease-in duration-300 grayscale hover:grayscale-0"
         />
         <div>
-          <h1 className="text-white font-mono text-7xl hover:text-green-500 hover:cursor-pointer hover:ease-in duration-300">
+          <h1 className="text-white font-mono text-7xl hover:text-green-500 hover:ease-in duration-300">
             <AnimatedText
               type="words" // animate words or chars
               animation={{
@@ -32,7 +32,7 @@ const Index = () => {
               Desenvolvedor Frontend
             </AnimatedText>
           </h1>
-          <h1 className="text-white font-mono mt-12  hover:text-green-500 hover:cursor-pointer hover:ease-in duration-300">
+          <h1 className="text-white mb-14 font-mono mt-12  hover:text-green-500 hover:ease-in duration-300">
             <AnimatedText
               type="wave" // animate words or chars
               animation={{
