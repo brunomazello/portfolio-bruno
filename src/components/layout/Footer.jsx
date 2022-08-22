@@ -11,7 +11,7 @@ const Footer = () => {
           <BsLinkedin className="text-5xl text-white hover:text-sky-400 duration-500 hover:cursor-pointer hover:text-7xl mr-10" />
         </a>
         <a
-          href="https://www.linkedin.com/in/brunomazello/"
+          href="https://www.facebook.com/bruno.mazello"
           target="_blank"
           rel="noopener"
         >
