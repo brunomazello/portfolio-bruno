@@ -3,10 +3,11 @@ import projeto01 from "../../img/projeto_github.png";
 import projeto02 from "../../img/projeto_healthbr.png";
 import projeto03 from "../../img/projeto_rpgbar.png";
 import projeto04 from "../../img/projeto_ecommerce.png";
+import projeto05 from "../../img/projeto_daily.png";
 
 function Projects(props) {
   return (
-    <div className="flex flex-wrap mb-10 bg-black ml-5 mr-5">
+    <div className="flex flex-wrap mb-10 ml-2 w-auto">
       <NewProject
         name="Consulta Github"
         img={projeto01}
@@ -30,6 +31,12 @@ function Projects(props) {
         img={projeto04}
         content=" E-commerce desenvolvido para melhorias no conhecimento de UX/UI."
         link="https://www.behance.net/gallery/107891641/E-Commerce"
+      />
+      <NewProject
+        name="Daily Advice"
+        img={projeto05}
+        content="Projeto desenvolvido utilizando AXIOS. Faz a consulta a uma API e retorna um conselho aleatório."
+        link="https://daily-advice-ten.vercel.app/"
       />
     </div>
   );

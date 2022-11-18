@@ -5,7 +5,7 @@ const Projetos = () => {
   return (
     <div className="flex justify-center sm:bg-black" name="projetos">
       <AnimationOnScroll animateIn="animate__bounceIn">
-        <div className="bg-black p-5">
+        <div className="bg-black p-5 w-92">
           <a
             href="https://github.com/brunomazello?tab=repositories"
             target="_blank"
