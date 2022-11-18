@@ -57,6 +57,7 @@ const Index = () => {
               <a
                 href="https://drive.google.com/file/d/14zlKNufMAt56-C9mSr8yl3LDkCTMNorV/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src={qrcode}

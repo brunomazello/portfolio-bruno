@@ -1,4 +1,4 @@
-import NewProjects from "../layout/NewProjects";
+import Projects from "../layout/Projects";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Projetos = () => {
@@ -9,13 +9,14 @@ const Projetos = () => {
           <a
             href="https://github.com/brunomazello?tab=repositories"
             target="_blank"
+            rel="noreferrer"
           >
             <h1 className="text-white font-mono text-2xl sm:text-7xl hover:text-pink-600 duration-300 hover:cursor-pointer">
               Lista de Projetos
             </h1>
           </a>
 
-          <NewProjects />
+          <Projects />
         </div>
       </AnimationOnScroll>
     </div>
