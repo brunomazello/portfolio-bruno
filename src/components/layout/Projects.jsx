@@ -4,6 +4,7 @@ import projeto02 from "../../img/projeto_healthbr.png";
 import projeto03 from "../../img/projeto_rpgbar.png";
 import projeto04 from "../../img/projeto_ecommerce.png";
 import projeto05 from "../../img/projeto_daily.png";
+import project06 from "../../img/projeto_cuesta.png";
 
 function Projects(props) {
   return (
@@ -12,13 +13,13 @@ function Projects(props) {
         name="Consulta Github"
         img={projeto01}
         content="Consulta repositórios no Github pelo nome de usuário"
-        link="https://github.com/brunomazello?tab=repositories"
+        link="https://consulta-perfil-gh.vercel.app/"
       />
       <NewProject
         name="Health Brasil"
         img={projeto02}
         content="Dicas e informações sobre saúde. Cálculo de IMC em JavaScript."
-        link="https://github.com/brunomazello?tab=repositories"
+        link="https://brunomazello.github.io/HealthBrasil/"
       />
       <NewProject
         name="Projeto RPG Bar"
@@ -37,6 +38,13 @@ function Projects(props) {
         img={projeto05}
         content="Projeto desenvolvido utilizando AXIOS. Faz a consulta a uma API e retorna um conselho aleatório."
         link="https://daily-advice-ten.vercel.app/"
+      />
+
+      <NewProject
+        name="Cuesta Steel"
+        img={project06}
+        content="Site desenvolvido para uma construtora no ramo de Steel Frame, sendo desenvolvido com React."
+        link="http://www.cuestasteel.com.br/"
       />
     </div>
   );
